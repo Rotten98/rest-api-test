@@ -1,0 +1,35 @@
+###
+GET  http://localhost:3000/api/tasks
+
+###
+
+GET http://localhost:3000/api/tasks?page0&size=4
+
+###
+
+POST http://localhost:3000/api/tasks
+Content-Type: application/json
+
+{
+"title": "Hacer un sitio web en angular",
+"description": "trabajo de freelance"
+}
+
+###
+
+GET http://localhost:3000/api/tasks/63741997abdbf828f5f600faasdas
+
+###
+DELETE http://localhost:3000/api/tasks/63741997abdbf828f5f600fa
+
+###
+GET http://localhost:3000/api/tasks
+
+###
+PUT http://localhost:3000/api/tasks/63741997abdbf828f5f600fa
+Content-Type: application/json
+
+{
+    "title": "crear un sitio en wix"
+}
+
